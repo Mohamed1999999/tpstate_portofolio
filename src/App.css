@@ -1,0 +1,56 @@
+/* App.css */
+
+/* Réinitialisation de la marge et du padding par défaut du navigateur */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centrer le contenu verticalement et horizontalement */
+.container {
+  height: 100vh; /* Remplit la hauteur de l'écran */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style pour le profil */
+.profile {
+  max-width: 400px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+  width: 300px; /* Augmenter la largeur de l'image */
+  height: 300px; /* Augmenter la hauteur de l'image */
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.profile h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.profile p {
+  margin-bottom: 5px;
+}
+
+/* Bouton stylisé */
+.profile button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile button:hover {
+  background-color: #0056b3;
+}
